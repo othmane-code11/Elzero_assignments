@@ -1,10 +1,11 @@
 let points = 10;
 let t = true;
+points += points / ++t - t;
 // Write Your Code Here
-points = ((++points * ++t) / t) + t;
 
 console.log(points); // 13
 
+points = ++points - points / t + --t;
 // Write Your Code Here
-points = ++points - points / t-- + t;
+
 console.log(points); // 8;
