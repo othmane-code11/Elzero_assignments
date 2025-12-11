@@ -6,8 +6,8 @@
     $admins = ["Osama", "Ahmed", "Sayed"];
 
     // Input Name "Osama"
-    if (isset($_POST["submit"])) {
-        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        if (isset($_POST["submit"])) {
             if (isset($_POST["user"])) {
                 $name = $_POST["user"];
                 echo "The Request Method Is Post And Username Is $name<br>";
