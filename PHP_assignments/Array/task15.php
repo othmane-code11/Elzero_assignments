@@ -1,15 +1,11 @@
 <?php
     $chars = ["o", "r", "e", "z", "l", "E"];
-
-    $count = 0;
-    foreach($chars as $c) {
-        $count++;
-    }
     $res = "";
-    for ($i = 0; $i < $count;) {
-        $i++;
-        $res .= $chars[$count-$i];
+    for ($i = count($chars); $i > 0; ) {
+        $i--;
+        $res .= $chars[$i];
     }
-    echo ($res);
+
+    echo $res;
     // Output
     // "Elzero"
