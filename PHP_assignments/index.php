@@ -1,8 +1,13 @@
-<?php
-    $title = "E&z\$r0 W\$b Sch00&";
-
-    echo str_replace(["&", "$", 0], ["l", "e", "o"], $title, $r);
-    echo $r;
-    // Output
-    // "Elzero Web School"
-    // 7
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+    </script>
+</body>
+</html>
