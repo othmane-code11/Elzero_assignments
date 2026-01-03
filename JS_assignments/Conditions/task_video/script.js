@@ -19,6 +19,6 @@ if (typeof(str.length) === "number") {
     console.log("Good");
 }
 
-if (`${str.slice(0, 6).repeat(2)}` === "ElzeroElzero") {
+if (`${str.split(' ')[0].repeat(2)}` === "ElzeroElzero") {
     console.log("Good");
 }
