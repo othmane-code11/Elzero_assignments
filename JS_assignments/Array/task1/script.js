@@ -5,5 +5,4 @@ let num = 3;
 console.log(myFriends.slice(num-num, num)); // ["Ahmed", "Elham", "Osama"];
 
 // Method 2
-myFriends.pop();
-console.log(myFriends); // ["Ahmed", "Elham", "Osama"];
+console.log(myFriends.splice(num-num, num)); // ["Ahmed", "Elham", "Osama"];
